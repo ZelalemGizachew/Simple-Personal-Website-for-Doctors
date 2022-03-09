@@ -2,7 +2,10 @@
 
 ---
 
-[Doctors Portifolio]()
+<small>Home Section</small>
+![Doctors Portifolio - Home Zenonymous](preview/home.png "Home Section")
+<small>Education Section </small>
+![Doctors Portifolio - Education Zenonymous](preview/education.png "Education Section")
 
 ### About
 
