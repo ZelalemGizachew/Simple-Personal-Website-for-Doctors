@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fdfdfd;
+}
+
+.top-nav {
+  background-color: #2878b9;
+  color: white;
+  top: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  -webkit-box-shadow: 0px 1px 4px 2px rgba(102, 102, 102, 0.788);
+          box-shadow: 0px 1px 4px 2px rgba(102, 102, 102, 0.788);
+}
+
+.top-nav a {
+  color: #fffdfd;
+  text-decoration: none;
+}
+
+.top-nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.top-nav .container .brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.top-nav .container ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.top-nav .container ul li {
+  margin: auto 7px;
+}
+
+.top-nav .container ul a:hover {
+  color: #c9c9c9;
+  text-decoration: none;
+}
+
+.common-container {
+  margin-top: 40px;
+}
+
+.common-container h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  color: #5e5e5e;
+}
+
+#Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+#Home .my-bio {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+#Home .my-bio p {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#Education .edu-container {
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  border-radius: 20px;
+  background: #13568d;
+  color: white;
+  -webkit-box-shadow: 0px 0px 4px 2px #2878b9;
+          box-shadow: 0px 0px 4px 2px #2878b9;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+#Education .edu-container img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: 10px;
+}
+
+#Education .edu-container .edu-details {
+  margin: 10px;
+}
+
+#Education .edu-container h4, #Education .edu-container h5, #Education .edu-container h6 {
+  line-height: 34px;
+}
+
+#Education .edu-container:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+#Certificates figure {
+  text-align: center;
+}
+
+#Certificates figure figcaption {
+  font-family: cursive;
+  font-style: italic;
+}
+
+#Projects .proj-container {
+  margin-top: 20px;
+}
+
+#Projects .proj-container h4 {
+  margin-bottom: 10px;
+}
+
+#Projects .proj-container h4 em {
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+#Projects .proj-container .project-detail {
+  letter-spacing: 1.4px;
+}
+
+#Experiences .exp-details {
+  padding-top: 30px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: #13568d;
+  color: white;
+  line-height: 30px;
+  padding: 10px;
+}
+
+#Experiences .exp-details .group-content-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Experiences .exp-details .group-content-flex .Duration {
+  margin-right: 130px;
+}
+
+#Experiences .exp-details .group-content-flex .group-content {
+  margin-right: 100px;
+}
+
+#Contact {
+  background: #2878b9;
+  color: #fff;
+  padding: 10px;
+}
+
+#Contact h3 {
+  color: #fff;
+}
+
+#Contact a {
+  color: #fffdfd;
+  text-decoration: none;
+}
+
+#Contact .contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#Contact .footer {
+  background-color: #13568d;
+  display: inline;
+  text-align: center;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  -webkit-box-shadow: 0px -1px 4px 2px rgba(102, 102, 102, 0.788);
+          box-shadow: 0px -1px 4px 2px rgba(102, 102, 102, 0.788);
+  margin-top: 10px;
+  z-index: 9;
+}
+
+@media only screen and (max-width: 1024px) {
+  .top-nav {
+    font-size: 14px;
+  }
+  #Home {
+    display: block;
+  }
+  #Home .my-photo {
+    text-align: center;
+  }
+}
