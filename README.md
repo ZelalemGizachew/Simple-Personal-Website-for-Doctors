@@ -15,4 +15,4 @@ But Because it is designed as component wise, you can customize it as you like
 ```
 
 <br>
-##### Created by: [@Zenonymous](https://t.me/zenonymous)
+**Created by:** *Telegram - <a href="https://t.me/Zenonymous">Zenonymous</a>*
